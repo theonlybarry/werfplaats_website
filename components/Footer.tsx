@@ -28,7 +28,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                </p>
                <div className="flex justify-center">
                   <button
-                     onClick={() => window.location.href = 'mailto:barrywanschers@gmail.com'}
+                     onClick={() => window.location.href = 'mailto:support@werftools.nl'}
                      className="bg-brand-orange text-white font-bold px-10 py-4 text-lg uppercase rounded-full hover:bg-orange-600 hover:scale-105 transition-all shadow-xl shadow-brand-orange/30 flex items-center justify-center gap-2 group"
                   >
                      BOEK EEN DEMO
@@ -97,7 +97,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   <p className="text-gray-400 text-sm mb-4">
                      Abonneer op onze nieuwsbrief en mis niets.
                   </p>
-                  <form action="mailto:barrywanschers@gmail.com" method="POST" encType="text/plain" className="flex bg-white rounded overflow-hidden p-1">
+                  <form action="mailto:support@werftools.nl" method="POST" encType="text/plain" className="flex bg-white rounded overflow-hidden p-1">
                      <input type="email" name="newsletter" placeholder="Je e-mailadres..." className="bg-transparent px-3 py-2 text-gray-900 w-full outline-none text-sm" />
                      <button type="submit" className="bg-brand-dark text-white px-3 hover:bg-brand-orange transition rounded">
                         <ArrowRight size={18} />

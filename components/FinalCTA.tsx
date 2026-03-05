@@ -30,7 +30,7 @@ export const FinalCTA: React.FC = () => {
                     </p>
 
                     <Button
-                        onClick={() => window.location.href = 'mailto:barrywanschers@gmail.com'}
+                        onClick={() => window.location.href = 'mailto:support@werftools.nl'}
                         variant="primary"
                         className="!px-10 !py-5 !text-lg rounded-full group hover:shadow-[0_0_30px_rgba(255,90,31,0.5)] transition-all duration-300"
                     >

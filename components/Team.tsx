@@ -35,7 +35,7 @@ export const Team: React.FC = () => {
       </div>
 
       <div className="text-center mt-16">
-        <Button onClick={() => window.location.href = 'mailto:barrywanschers@gmail.com'} variant="primary" className="bg-brand-orange hover:bg-orange-600 !px-12">
+        <Button onClick={() => window.location.href = 'mailto:support@werftools.nl'} variant="primary" className="bg-brand-orange hover:bg-orange-600 !px-12">
           ONTDEK HET TEAM
         </Button>
       </div>

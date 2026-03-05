@@ -57,7 +57,7 @@ export const Hero: React.FC = () => {
               </span>
             </div>
 
-            <h1 className="text-6xl md:text-8xl font-display font-bold text-white leading-[0.85] tracking-tighter">
+            <h1 className="text-6xl md:text-8xl font-bold text-white leading-[0.85] tracking-tighter">
               AI ONTMOET <br />
               <span className="text-brand-orange italic drop-shadow-[0_0_20px_rgba(255,90,31,0.3)]">ECHTE</span> <br />
               RECRUITERS.
@@ -68,7 +68,7 @@ export const Hero: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5 pt-4">
-              <Button onClick={() => window.location.href = 'mailto:barrywanschers@gmail.com'} variant="primary" className="!px-10 !py-5 !text-lg rounded-full group">
+              <Button onClick={() => window.location.href = 'mailto:support@werftools.nl'} variant="primary" className="!px-10 !py-5 !text-lg rounded-full group">
                 BOEK EEN DEMO
                 <MousePointer2 className="inline ml-2 group-hover:rotate-12 transition-transform" />
               </Button>
@@ -115,7 +115,7 @@ export const Hero: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-[10px] text-gray-300 font-bold uppercase tracking-widest">Sourcing Rate</p>
-                    <p className="text-xl font-display font-black text-white">99.8%</p>
+                    <p className="text-xl font-black text-white">99.8%</p>
                   </div>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export const Hero: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-[10px] text-gray-300 font-bold uppercase tracking-widest">Matches</p>
-                    <p className="text-xl font-display font-black text-white">2.4m+</p>
+                    <p className="text-xl font-black text-white">2.4m+</p>
                   </div>
                 </div>
               </div>

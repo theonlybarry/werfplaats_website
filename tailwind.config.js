@@ -9,7 +9,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
+                sans: ['Oswald', 'sans-serif'],
                 display: ['Oswald', 'sans-serif'],
             },
             colors: {
