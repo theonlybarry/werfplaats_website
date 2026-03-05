@@ -77,21 +77,6 @@ export const Hero: React.FC = () => {
               </Button>
             </div>
 
-            {/* Quick Metrics */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 pt-8 border-t border-white/10">
-              <div>
-                <p className="text-brand-orange font-display text-4xl font-bold">+90%</p>
-                <p className="text-gray-500 text-xs uppercase font-bold tracking-widest mt-1">Invullingsgraad</p>
-              </div>
-              <div>
-                <p className="text-brand-green font-display text-4xl font-bold">8 wk</p>
-                <p className="text-gray-500 text-xs uppercase font-bold tracking-widest mt-1">Gem. doorlooptijd</p>
-              </div>
-              <div className="hidden md:block">
-                <p className="text-white font-display text-4xl font-bold">€0,-</p>
-                <p className="text-gray-500 text-xs uppercase font-bold tracking-widest mt-1">No cure, No pay</p>
-              </div>
-            </div>
           </div>
 
           {/* Right Content (5 columns) - AI DASHBOARD PREVIEW */}
