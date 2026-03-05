@@ -32,13 +32,13 @@ export const Header: React.FC<HeaderProps> = ({ onNavigate, currentPage }) => {
       <div className="bg-brand-orange text-white py-2 px-4 relative z-10">
         <div className="container mx-auto flex flex-col sm:flex-row justify-center items-center gap-2 text-center">
           <p className="text-[10px] md:text-xs font-bold uppercase tracking-widest">
-            Hey, welkom👋. Leuk dat je interesse hebt! (In het echt zijn we nóg leuker😉)
+            Hey, welkom👋. Klaar om recruitment te transformeren?
           </p>
           <button
-            onClick={() => handleNavClick(Page.ABOUT)}
+            onClick={() => handleNavClick(Page.CONTACT)}
             className="group flex items-center gap-1 text-[10px] md:text-xs font-black uppercase tracking-widest border-b-2 border-white/50 hover:border-white transition-all"
           >
-            Bekijk de vacatures
+            Boek een demo
             <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
@@ -69,13 +69,11 @@ export const Header: React.FC<HeaderProps> = ({ onNavigate, currentPage }) => {
               href="https://tool.werftools.nl"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-display font-black text-sm uppercase tracking-widest text-brand-orange hover:text-white transition-colors border-b-2 border-transparent hover:border-brand-orange pb-0.5"
             >
-              Login
+              <Button variant="primary" className="!py-2 !px-8 !text-sm">
+                Login
+              </Button>
             </a>
-            <Button onClick={() => window.location.href = 'mailto:barrywanschers@gmail.com'} variant="primary" className="!py-2 !px-4 !text-sm">
-              Boek een demo
-            </Button>
           </nav>
 
           {/* Mobile Toggle */}
@@ -104,13 +102,12 @@ export const Header: React.FC<HeaderProps> = ({ onNavigate, currentPage }) => {
             href="https://tool.werftools.nl"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium text-lg uppercase text-left py-2 text-brand-orange font-bold"
+            className="w-full"
           >
-            Login Platform
+            <Button variant="primary" className="w-full">
+              Login
+            </Button>
           </a>
-          <Button onClick={() => window.location.href = 'mailto:barrywanschers@gmail.com'} variant="primary" className="w-full">
-            Boek een demo
-          </Button>
           <div className="flex items-center justify-center gap-2 text-white/70 text-sm mt-4">
             <Phone size={16} /> Bel direct: +31(0)30-2072878
           </div>
