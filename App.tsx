@@ -3,7 +3,6 @@ import { Page } from './types';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { FloatingRemco } from './components/FloatingRemco';
-import { Editor } from './components/Editor';
 
 // Pages
 import { Home } from './pages/Home';
@@ -41,7 +40,6 @@ function App() {
       </main>
       <Footer onNavigate={setCurrentPage} />
       <FloatingRemco />
-      <Editor />
     </div>
   );
 }
