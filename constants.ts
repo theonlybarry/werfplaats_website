@@ -94,7 +94,13 @@ export const TEAM: TeamMember[] = [
     id: 2,
     name: 'Thom',
     role: 'Recruitment & support Held',
-    image: 'https://werfplaats.nl/wp-content/uploads/2025/10/Fenne-van-Schaffelaar.png'
+    image: 'https://werfplaats.nl/wp-content/uploads/2025/08/Thom-de-Vries-Team-Werfplaats-2.png'
+  },
+  {
+    id: 13,
+    name: 'Jesse',
+    role: 'Recruitment & support Held',
+    image: 'https://werfplaats.nl/wp-content/uploads/2023/08/RAW_7081-kopie-scaled-e1711025499846.jpg'
   }
 ];
 
