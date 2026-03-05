@@ -13,25 +13,25 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
          <div className="container mx-auto px-4">
 
             {/* CTA Banner */}
-            <div className="bg-gradient-to-r from-brand-green to-emerald-600 rounded-3xl p-10 md:p-16 text-center shadow-2xl transform -translate-y-36 mb-[-60px]">
+            <div className="bg-gradient-to-r from-brand-green to-emerald-600 rounded-3xl p-10 md:p-16 text-center shadow-2xl transform -translate-y-36 mb-[-60px] relative overflow-hidden">
+               {/* Decorative background circle */}
+               <div className="absolute -top-24 -right-24 w-64 h-64 bg-white opacity-5 rounded-full pointer-events-none"></div>
+
                <h2 className="text-3xl md:text-5xl font-display font-bold uppercase mb-4 text-white">
-                  Klaar om je recruitment te transformeren?
+                  Ben je nu echt helemaal <span className="text-brand-orange">naar beneden</span> gescrold?
                </h2>
-               <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto mb-8 font-medium">
-                  Plan een persoonlijke demo en ontdek live hoe Werftools jouw wervingsproces automatiseert. Verlaag je time-to-hire, krijg inzage in realtime data, en geef je team de beste AI-tools zodat ze zich weer vollop kunnen focussen op de echte gesprekken met kandidaten.
+               <h3 className="text-xl md:text-2xl font-display font-bold uppercase mb-6 text-white/90">
+                  Plan dan maar direct een demo in!
+               </h3>
+               <p className="text-white/80 text-lg md:text-xl max-w-3xl mx-auto mb-10 font-medium italic">
+                  "Verlaag je time-to-hire, krijg inzage in realtime data, en geef je team de beste AI-tools zodat ze zich weer volop kunnen focussen op de échte gesprekken met kandidaten."
                </p>
-               <div className="flex flex-col md:flex-row justify-center gap-4">
+               <div className="flex justify-center">
                   <button
-                     onClick={() => onNavigate(Page.CONTACT)}
-                     className="bg-white text-brand-green font-bold px-8 py-3 uppercase rounded hover:bg-gray-100 transition shadow-lg"
+                     onClick={() => window.location.href = 'mailto:barrywanschers@gmail.com'}
+                     className="bg-brand-orange text-white font-bold px-10 py-4 text-lg uppercase rounded-full hover:bg-orange-600 hover:scale-105 transition-all shadow-xl shadow-brand-orange/30 flex items-center justify-center gap-2 group"
                   >
-                     Boek een demo
-                  </button>
-                  <button
-                     onClick={() => onNavigate(Page.CONTACT)}
-                     className="bg-transparent border-2 border-white text-white font-bold px-8 py-3 uppercase rounded hover:bg-white hover:text-brand-green transition shadow-lg"
-                  >
-                     Bel mij terug
+                     BOEK EEN DEMO
                   </button>
                </div>
             </div>
@@ -74,7 +74,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                      <li className="font-bold text-white text-lg">
                         <a href="tel:+310302072878" className="hover:text-brand-orange transition">+31(0)30-2072878</a>
                      </li>
-                     <li><a href="mailto:barrywanschers@gmail.com" className="hover:text-white transition">barrywanschers@gmail.com</a></li>
+                     <li><a href="mailto:support@werftools.nl" className="hover:text-white transition">support@werftools.nl</a></li>
                      <li className="space-y-3">
                         <div>
                            <p className="text-white font-bold text-xs uppercase tracking-widest mb-1">Utrecht</p>
