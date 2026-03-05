@@ -6,12 +6,12 @@ export const Team: React.FC = () => {
   return (
     <section className="py-24 bg-white" id="about">
       <div className="container mx-auto px-4 text-center mb-16">
-        <h2 className="text-brand-orange font-display text-xl tracking-widest mb-2 italic">HET NUMMER #1</h2>
+        <h2 className="text-brand-orange font-display text-xl tracking-widest mb-2 italic">HET TEAM ACHTER DE SOFTWARE</h2>
         <h3 className="text-4xl md:text-5xl font-display font-bold text-brand-green uppercase mb-6">
-          RECRUITMENT MARKETING BUREAU
+          JOUW FLEXIBELE SCHIL
         </h3>
         <p className="max-w-2xl mx-auto text-gray-600 mb-8">
-          We zijn en blijven Werftools. Natuurlijk schakelen we super snel. Maar daarnaast hechten we ook veel waarde aan een fijne samenwerking.
+          Achter Werftools staat een team van échte recruitment experts. Zodra de AI het werk niet alleen aankan, schalen wij direct met je mee om het verschil te maken.
         </p>
       </div>
 

@@ -5,6 +5,7 @@ import { PlatformOverview } from '../components/PlatformOverview';
 import { Testimonials } from '../components/Testimonials';
 import { Team } from '../components/Team';
 import { WinningTeam } from '../components/WinningTeam';
+import { FinalCTA } from '../components/FinalCTA';
 import { Page } from '../types';
 
 interface HomeProps {
@@ -20,6 +21,7 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
       <WinningTeam />
       <Testimonials />
       <Team />
+      <FinalCTA />
     </>
   );
 };

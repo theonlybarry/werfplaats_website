@@ -33,62 +33,68 @@ export const TEAM: TeamMember[] = [
   {
     id: 10,
     name: 'Remco',
-    role: 'Founder, recruitment manager',
+    role: 'Founder & Recruitment Probleemoplosser',
     image: 'https://werfplaats.nl/wp-content/uploads/2023/08/RAW_711-scaled.jpg'
+  },
+  {
+    id: 11,
+    name: 'Barry',
+    role: 'Founder & Ideeën-naar-Software Vertaler',
+    image: 'https://xquintpfpzdsxupnhypj.supabase.co/storage/v1/object/public/public/uploads/barry.png'
+  },
+  {
+    id: 12,
+    name: 'Tatiana',
+    role: 'Hoofd Regels & Compliance',
+    image: 'https://xquintpfpzdsxupnhypj.supabase.co/storage/v1/object/public/public/uploads/Tatiana.png'
   },
   {
     id: 8,
     name: 'Remon',
-    role: 'Partner publiek domein',
+    role: 'Recruitment & support Held',
     image: 'https://werfplaats.nl/wp-content/uploads/2023/08/RAW_7049-scaled-e1711024927794.jpg'
   },
   {
     id: 7,
     name: 'Joey',
-    role: 'Service delivery manager',
+    role: 'Chef Support & Probleemoplosser',
     image: 'https://werfplaats.nl/wp-content/uploads/2023/08/RAW_7022-kopie-scaled-e1711025387614.jpg'
   },
   {
     id: 6,
     name: 'Kim',
-    role: 'Recruitment engineer',
+    role: 'Marketing Brein',
     image: 'https://werfplaats.nl/wp-content/uploads/2023/11/Kim-Leewens-WP-Foto.jpg'
   },
   {
     id: 5,
     name: 'Sandy',
-    role: 'Recruitment support',
+    role: 'Recruitment & support Held',
     image: 'https://werfplaats.nl/wp-content/uploads/2025/01/Sandhya-Autar-Werfplaats.png'
   },
   {
     id: 4,
     name: 'Stan',
-    role: 'Recruitment support',
+    role: 'Recruitment Support Held',
     image: 'https://werfplaats.nl/wp-content/uploads/2025/05/Stan-van-Dam-7.png'
   },
   {
     id: 3,
     name: 'Marte',
-    role: 'Recruitment support',
+    role: 'Recruitment Support Held',
     image: 'https://werfplaats.nl/wp-content/uploads/2025/05/Marte-Koelstra-4.png'
   },
   {
     id: 1,
     name: 'Fenne',
-    role: 'Recruitment support',
+    role: 'Recruitment Support Held',
     image: 'https://werfplaats.nl/wp-content/uploads/2025/10/Fenne-van-Schaffelaar.png'
   },
   {
     id: 2,
     name: 'Thom',
-    role: 'Service delivery manager',
+    role: 'Recruitment & support Held',
     image: 'https://werfplaats.nl/wp-content/uploads/2025/10/Fenne-van-Schaffelaar.png'
-  },
-  {
-    id: 9,
-    name: 'Adriaan',
-    role: 'Finance manager',
-    image: 'https://werfplaats.nl/wp-content/uploads/2023/08/RAW_7049-scaled-e1711024927794.jpg'
   }
 ];
 
