@@ -11,4 +11,4 @@ RUN npm install -g serve
 COPY --from=build /app/dist ./dist
 
 # Start the server on the dynamic port expected by Google Cloud Run.
-CMD ["sh", "-c", "serve -s dist -l ${PORT:-8080}"]
+CMD ["sh", "-c", "sed -i \"s|__GEMINI_RUNTIME_KEY__|${GEMINI_API_KEY:-}|g\" dist/index.html && serve -s dist -l ${PORT:-8080}"]

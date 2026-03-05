@@ -1,7 +1,14 @@
 import { GoogleGenAI } from "@google/genai";
 import { PitchTone } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const globalEnv = typeof window !== 'undefined' ? (window as any).ENV : null;
+let apiKey = globalEnv?.GEMINI_API_KEY;
+
+if (!apiKey || apiKey === '__GEMINI_RUNTIME_KEY__') {
+  apiKey = process.env.API_KEY || process.env.GEMINI_API_KEY || '';
+}
+
+const ai = new GoogleGenAI({ apiKey });
 
 export const generateRecruitmentPitch = async (jobTitle: string, tone: PitchTone): Promise<string> => {
   try {
