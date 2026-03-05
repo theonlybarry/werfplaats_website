@@ -35,7 +35,7 @@ export const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen bg-brand-dark flex items-start md:items-center pt-44 md:pt-32 pb-16 overflow-hidden">
+    <section className="relative min-h-screen bg-brand-dark flex items-start md:items-center pt-32 md:pt-20 pb-16 overflow-hidden">
       {/* Dynamic Background */}
       <div className="absolute top-0 right-0 w-full h-full pointer-events-none opacity-30">
         <div className="absolute top-[10%] right-[10%] w-96 h-96 bg-brand-orange/20 rounded-full blur-[120px] animate-pulse-soft"></div>
