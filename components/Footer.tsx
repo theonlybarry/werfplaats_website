@@ -18,7 +18,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                <div className="absolute -top-24 -right-24 w-64 h-64 bg-white opacity-5 rounded-full pointer-events-none"></div>
 
                <h2 className="text-3xl md:text-5xl font-display font-bold uppercase mb-4 text-white">
-                  Ben je nu echt helemaal <span className="text-brand-orange">naar beneden</span> gescrold?
+                  Ben je nu echt helemaal naar beneden gescrold?
                </h2>
                <h3 className="text-xl md:text-2xl font-display font-bold uppercase mb-6 text-white/90">
                   Plan dan maar direct een demo in!
